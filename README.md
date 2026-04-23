@@ -1,4 +1,4 @@
-cd build
-cmake ..
-make -j$(nproc)
-./mini3d
+mkdir build && cd build  
+cmake ..  
+make -j$(nproc)  
+./mini3d  
